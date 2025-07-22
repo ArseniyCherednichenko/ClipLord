@@ -1,0 +1,24 @@
+# ClipLord - TikTok Video Generator Dependencies
+
+# Core video processing
+yt-dlp>=2023.12.30
+moviepy>=1.0.3
+imageio>=2.25.0
+
+# Audio/Speech processing
+openai-whisper>=20231117
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# System utilities
+psutil>=5.9.0
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Optional: Better performance
+ffmpeg-python>=0.2.0
+
+# Development/debugging (optional)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
